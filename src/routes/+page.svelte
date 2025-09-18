@@ -5,7 +5,9 @@
 <form {...demo}>
 	<input name={demo.field("name.first")} />
 
+	<!-- weirdly, this input isn't sending any value -->
 	<input name={demo.field("name.last")} />
+
 	<button type="submit">Demo submit</button>
 </form>
 
